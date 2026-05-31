@@ -3,151 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sierra Virgen | Menu Digital</title>
+  <title>Sierra Virgen | Experiencia Andina</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Restaurante</p>
+  <header class="topbar">
+    <img class="brand-logo" src="Logo1.png" alt="Sierra Virgen" loading="eager">
+    <nav class="topnav" aria-label="Navegacion principal">
+      <a href="#historia">Historia</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#gastronomia">Gastronomía</a>
+      <a href="menu.html">Menú</a>
+    </nav>
+  </header>
+
+  <main class="page premium">
+    <section class="hero hero-premium">
+      <img class="hero-bg" src="fondoTitulos.png" alt="" loading="eager">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Naturaleza, pesca y gastronomía andina</p>
         <h1>Sierra Virgen</h1>
-        <p class="tagline">Muy fresco, mas sabroso e imposible de olvidar.</p>
+        <p class="tagline">Cada visita es una conexión con la montaña: senderos andinos, pesca deportiva y trucha fresca preparada al instante.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#menu">Ver menu</a>
+          <a class="btn btn-primary" href="menu.html">Ver menú</a>
+          <a class="btn btn-ghost" href="#experiencia">Vivir experiencia</a>
         </div>
       </div>
     </section>
 
-    <section class="location" id="ubicacion" aria-label="Ubicacion del restaurante">
-      <h2>Ubicacion</h2>
-      <p>Visitanos en Sierra Virgen y llega facil con Google Maps.</p>
-      <a class="btn btn-ghost" href="https://maps.app.goo.gl/nBw2a1eak3SuN5ys7" target="_blank" rel="noopener noreferrer">Como llegar🗺️</a>
+    <section class="story-grid" id="historia" aria-label="Historia gastronomica">
+      <article class="text-card">
+        <p class="eyebrow">Historia gastronómica</p>
+        <h2>Trucha fresca, preparación artesanal</h2>
+        <p>En Sierra Virgen, la cocina nace del entorno: seleccionamos ingredientes frescos y preparamos la trucha al momento para mantener su textura y sabor autentico. Cada plato conecta la tradicion andina con una experiencia contemporánea y acogedora.</p>
+      </article>
+      <img class="section-photo" src="TruchaSierraVirgen.png" alt="Preparacion artesanal " loading="lazy">
     </section>
 
-    <section class="menu-section" id="menu" aria-label="Menu completo en vertical">
-      <h2>Menu completo</h2>
-      <p class="menu-intro">Toca cada seccion para ver los platos y precios.</p>
+    <section class="split" id="experiencia" aria-label="Experiencia de pesca deportiva">
+      <img class="section-photo" src="laguna 1.png" alt="Pesca deportiva" loading="lazy">
+      <article class="text-card">
+        <p class="eyebrow">Experiencia de pesca</p>
+        <h2>Pesca tu propia trucha</h2>
+        <p>Vive la emocion de pescar en lagunas naturales rodeadas de montañas y aire puro. Luego, nuestro equipo transforma tu pesca en un plato inolvidable para compartir en familia.</p>
+      </article>
+    </section>
 
-      <div class="menu-written" aria-label="Carta escrita de Sierra Virgen">
-        <details open>
-          <summary>Desayunos</summary>
-          <ul>
-            <li><span>Continental</span><strong>$3.75</strong></li>
-          </ul>
-        </details>
+    <section class="split reverse" aria-label="Senderismo y paisaje andino">
+      <img class="section-photo" src="Sendero.png" alt="Senderos y paisajes andinos" loading="lazy">
+      <article class="text-card">
+        <p class="eyebrow">Senderismo y paisaje</p>
+        <h2>Montaña, tranquilidad y aventura</h2>
+        <p>Recorre senderos de altura, respira aire puro y contempla un paisaje que invita a desconectarte. Sierra Virgen es un destino para relajarte, explorar y reconectar con la naturaleza.</p>
+      </article>
+    </section>
 
-        <details>
-          <summary>Entradas</summary>
-          <ul>
-            <li><span>Habas con mellocos</span><strong>$2.50</strong></li>
-            <li><span>Choclos con queso</span><strong>$2.00</strong></li>
-            <li><span>Empanadas de morocho</span><strong>$1.75</strong></li>
-          </ul>
-        </details>
-
-        <section class="promo">
-          <h3>Promocion</h3>
-          <p>Si usted trae la trucha que pesco, descontamos $2.00 del precio de la carta.</p>
-        </section>
-
-        <details>
-          <summary>Platos fuertes</summary>
-          <ul>
-            <li><span>Caldo de gallina criolla</span><strong>$6.90</strong></li>
-            <li><span>Trucha en salsa Sierra Virgen</span><strong>$11.20</strong></li>
-            <li><span>Trucha al ajillo</span><strong>$10.25</strong></li>
-            <li><span>Trucha al carbon</span><strong>$11.00</strong></li>
-            <li><span>Trucha en salsa de champinones</span><strong>$9.75</strong></li>
-            <li><span>Trucha frita</span><strong>$7.20</strong></li>
-            <li><span>Chicharron de trucha</span><strong>$9.20</strong></li>
-            <li><span>Pollo a la plancha</span><strong>$6.50</strong></li>
-            <li><span>Hamburguesa de trucha (Simple)</span><strong>$6.50</strong></li>
-            <li><span>Hamburguesa de trucha (Doble)</span><strong>$9.00</strong></li>
-            <li><span>Nugget de trucha</span><strong>$5.00</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Bebidas calientes</summary>
-          <ul>
-            <li><span>Cafe lojano (Taza)</span><strong>$1.75</strong></li>
-            <li><span>Chocolate + porcion de queso (Taza)</span><strong>$2.50</strong></li>
-            <li><span>Chocolate + porcion de queso (Jarra)</span><strong>$9.00</strong></li>
-            <li><span>Agua de canela (Taza)</span><strong>$0.75</strong></li>
-            <li><span>Agua de canela (Jarra)</span><strong>$2.50</strong></li>
-            <li><span>Espiritu lojano con o sin alcohol (Taza)</span><strong>$2.25</strong></li>
-            <li><span>Espiritu lojano con o sin alcohol (Jarra)</span><strong>$7.50</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Bebidas frias</summary>
-          <ul>
-            <li><span>Agua sin gas</span><strong>$1.00</strong></li>
-            <li><span>Agua con gas</span><strong>$1.25</strong></li>
-            <li><span>Gaseosa personal</span><strong>$1.00</strong></li>
-            <li><span>Gaseosa de 1 LT</span><strong>$2.50</strong></li>
-            <li><span>Gaseosa de 3 LTS</span><strong>$4.50</strong></li>
-            <li><span>Te (botella)</span><strong>$1.50</strong></li>
-            <li><span>Jarra jugos naturales 1 LT (mora, guanabana, mango, tomate)</span><strong>$6.50</strong></li>
-            <li><span>Vaso jugos naturales 400 ML</span><strong>$3.00</strong></li>
-            <li><span>Limonada natural (Jarra 1.5 LTS)</span><strong>$5.50</strong></li>
-            <li><span>Limonada natural (Vaso 400 ML)</span><strong>$2.00</strong></li>
-            <li><span>Limonada imperial (Jarra 1 LT)</span><strong>$6.00</strong></li>
-            <li><span>Limonada imperial (Vaso 400 ML)</span><strong>$2.50</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Postres</summary>
-          <ul>
-            <li><span>Creme brulee</span><strong>$3.75</strong></li>
-            <li><span>Higos con queso</span><strong>$2.50</strong></li>
-            <li><span>Cheesecake (frutos de temporada)</span><strong>$3.00</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Porciones</summary>
-          <ul>
-            <li><span>Papas fritas</span><strong>$3.00</strong></li>
-            <li><span>Papas criollas</span><strong>$3.00</strong></li>
-            <li><span>Salsa Sierra Virgen</span><strong>$4.50</strong></li>
-            <li><span>Salsa al ajillo</span><strong>$3.75</strong></li>
-            <li><span>Salsa champinones</span><strong>$3.50</strong></li>
-            <li><span>Ensalada</span><strong>$2.50</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Licores</summary>
-          <ul>
-            <li><span>Cerveza Club</span><strong>$3.75</strong></li>
-            <li><span>Cerveza Pilsener</span><strong>$2.50</strong></li>
-            <li><span>Cerveza Corona</span><strong>$3.00</strong></li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Vinos</summary>
-          <ul>
-            <li><span>Casillero del Diablo (Botella)</span><strong>$32.00</strong></li>
-            <li><span>Casillero del Diablo (Copa)</span><strong>$6.00</strong></li>
-            <li><span>Gato Negro (Botella)</span><strong>$23.00</strong></li>
-            <li><span>Gato Negro (Copa)</span><strong>$4.00</strong></li>
-            <li><span>Vino hervido (Copa)</span><strong>Precio no visible</strong></li>
-          </ul>
-        </details>
-
-        <section class="promo">
-          <h3>Pesca deportiva</h3>
-          <p>Vive la experiencia de pescar tu propia trucha y disfrutarla recien preparada.</p>
-        </section>
-
-        <p class="thanks">Gracias por visitarnos.</p>
+    <section class="gastronomy" id="gastronomia" aria-label="Gastronomia premium">
+      <article class="text-card wide">
+        <p class="eyebrow">Gastronomía premium</p>
+        <h2>Trucha Sierra Virgen</h2>
+        <p>Nuestro plato insignia combina tradición andina, técnicas artesanales y el sabor inconfundible de la trucha fresca. Desde la trucha al ajillo hasta una preparación exclusiva de nuestro chef, cada plato refleja la esencia de nuestra tierra.</p>
+      </article>
+      <div class="dish-list">
+        <article class="dish-pill">Trucha Sierra Virgen</article>
+        <article class="dish-pill">Trucha al ajillo</article>
+        <article class="dish-pill">Trucha al carbón</article>
+        <article class="dish-pill">hamburguesa de trucha</article>
       </div>
     </section>
+
+    <section class="cta-experience" aria-label="Experiencia personalizada">
+      <p class="eyebrow">Experiencia personalizada</p>
+      <h2>Pesca tu trucha y disfrútala recién preparada</h2>
+      <p>Plan ideal para parejas, grupos y familias que buscan naturaleza, aventura y gastronomía auténtica en un solo lugar.</p>
+      <div class="location-actions">
+        <a class="btn btn-primary" href="menu.html">Explorar carta</a>
+        <a class="btn btn-ghost" href="https://maps.app.goo.gl/nBw2a1eak3SuN5ys7" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+      </div>
+    </section>
+
+    <section class="editorial" aria-label="Galeria visual editorial">
+      <h2>Una experiencia para recordar</h2>
+      <div class="editorial-grid">
+        <img src="Hamburguesa 1.png" alt="Plato de trucha en montaje editorial" loading="lazy">
+        <img src="restaurante 2.png" alt="Lago y montanas en entorno andino" loading="lazy">
+        <img src="ArbolPesca 3.png" alt="Familia disfrutando experiencia Sierra Virgen" loading="lazy">
+      </div>
+    </section>
+
+    <section class="info-grid" aria-label="Accesos rapidos">
+      <section class="location" id="ubicacion" aria-label="Ubicacion del restaurante">
+        <h2>Ubicación</h2>
+        <p>Visitanos en Sierra Virgen y llega fácil con Google Maps.</p>
+        <div class="location-actions">
+          <a class="btn btn-ghost" href="https://maps.app.goo.gl/nBw2a1eak3SuN5ys7" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+        </div>
+      </section>
+
+      <section class="location" aria-label="Acceso al menu digital">
+        <h2>Menú</h2>
+        <p>Explora nuestra carta y disfruta la mejor trucha de la casa.</p>
+        <div class="location-actions">
+          <a class="btn btn-ghost" href="menu.html">Ver menú</a>
+        </div>
+      </section>
+    </section>
+
   </main>
+
+<script>
+  const topbar = document.querySelector('.topbar');
+  const hero = document.querySelector('.hero');
+  if (topbar && hero) {
+    const observer = new IntersectionObserver(([entry]) => {
+      topbar.classList.toggle('fixed', !entry.isIntersecting);
+    }, { rootMargin: '-60px 0px 0px' });
+    observer.observe(hero);
+  }
+</script>
 </body>
 </html>
